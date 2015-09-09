@@ -1,0 +1,9 @@
+#Percent chance of emerald spawning in
+#0% being no emeralds in the world and 100% being entire end island replaced with emerald ore
+emerald_generate_chance: 5
+
+#Name of the world that the game is in
+world_name: 'game'
+
+#Should the plugin regenerate the world when the server/plugin is restarted or reloaded
+regenerate_on_enable: false
