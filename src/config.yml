@@ -7,3 +7,30 @@ world_name: 'game'
 
 #Should the plugin regenerate the world when the server/plugin is restarted or reloaded
 regenerate_on_enable: false
+
+#How long the plugin waits after each regeneration to regenerate again. (hours)
+regeneration_interval: 3
+
+#How often the boss spawns. (hours)
+boss_spawn_interval: 1
+
+#Where the boss spawns. (Set using command /setbossspawn)
+boss_spawn_location: '0,70,0'
+
+#Chance of a mob to spawn with diamond armor
+armor_chance: 20
+
+#Chance of a mob to spawn with diamond sword
+sword_chance: 20
+
+#Mobs that can spawn. Valid entities can be found here https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+mobs:
+    - SKELETON
+    - ZOMBIE
+    - ENDERMAN
+
+#Color of emerald armor. (RGB)
+emerald_armor_color:
+    red: 0
+    green: 175
+    blue: 0

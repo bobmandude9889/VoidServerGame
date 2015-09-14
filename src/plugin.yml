@@ -1,0 +1,17 @@
+name: 'VoidGame'
+version: 1.0
+main: voidservergame.VoidServerGame
+
+commands:
+    setbossspawn:
+        usage: /<command>
+        description: Set spawnpoint of boss where you are standing.
+    savebossbase:
+        usage: /<command>
+        description: Save are to schematic for boss generation.
+
+permissions:
+    voidgame.setbossspawn:
+        description: Gives access to /setbossspawn
+    voidgame.savebossbase:
+        description: Gives access to /savebossbase
