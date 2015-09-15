@@ -5,15 +5,17 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Map;
 import java.util.zip.GZIPInputStream;
+
 import org.bukkit.Location;
 import org.bukkit.World;
 import org.bukkit.block.Block;
-import org.jnbt.ByteArrayTag;
-import org.jnbt.CompoundTag;
-import org.jnbt.NBTInputStream;
-import org.jnbt.ShortTag;
-import org.jnbt.StringTag;
-import org.jnbt.Tag;
+
+import jnbt.ByteArrayTag;
+import jnbt.CompoundTag;
+import jnbt.NBTInputStream;
+import jnbt.ShortTag;
+import jnbt.StringTag;
+import jnbt.Tag;
 
 public class SchematicHandler {
     

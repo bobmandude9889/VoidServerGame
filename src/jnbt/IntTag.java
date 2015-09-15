@@ -1,4 +1,4 @@
-package org.jnbt;
+package jnbt;
 
 /*
  * JNBT License
